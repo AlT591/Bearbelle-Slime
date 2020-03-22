@@ -1,0 +1,17 @@
+<h1>New Slime</h1>
+
+<%= form_with scope: :Slime, local: true do |form| %>
+  <p>
+    <%= form.label :Name %><br>
+    <%= form.text_field :Name %>
+  </p>
+ 
+  <p>
+    <%= form.label :Description %><br>
+    <%= form.text_area :text %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
