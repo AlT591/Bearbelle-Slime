@@ -1,0 +1,2 @@
+class Slime < ApplicationRecord
+end
